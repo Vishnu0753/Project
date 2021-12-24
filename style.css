@@ -1,0 +1,104 @@
+.drop 
+{
+    background-color: #3498DB;
+    color: white;
+    padding: 21px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.drop:hover, .drop:focus
+{
+    background-color: white;
+    color: black;
+}
+.menu
+{
+    position: relative;
+    display: inline-block;
+}
+.content
+{
+    display: none;
+    position: absolute;
+    background-color: #3498DB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.content a 
+{
+    color: white;
+    padding: 12px 21px;
+    text-decoration: none;
+    display: block;
+}
+.content a:hover
+{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 8%;
+}
+.menu:hover .content
+{
+    display: block;
+    border-radius: 5%;
+}
+body
+{
+    background-color: darkkhaki;
+}
+h1
+{
+    font-size: 300%;
+    color: black;   
+}
+dro
+{
+    margin: 1cm;
+}
+h2
+{
+    font-size: 200%;
+}
+pre
+{
+    font-size: 200%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+button
+{
+    background-color: #3498DB;
+    color: white;
+    padding: 21px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+li
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: black;
+}

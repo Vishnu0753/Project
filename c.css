@@ -1,0 +1,39 @@
+body
+{
+    background-color: darkkhaki;
+}
+h1
+{
+    margin-left: 1cm;
+    font-size: 300%;
+}
+h2
+{
+    margin-left: 1cm;
+}
+ul 
+{
+    font-size: 30px;
+    margin-left: 1cm;
+}
+p
+{
+    font-size: 30px;
+    margin-left: 1cm;
+}
+.hello
+{
+    font-size: 150% ;
+    background-color: white;
+    margin-right: 2cm;
+    margin-left: 2cm;
+}
+.o
+{
+    background-color: black;
+    margin-right: 2cm;
+    margin-left: 2cm;
+    font-size: 150% ;
+    color: white;
+    padding-left: 4cm;
+}
